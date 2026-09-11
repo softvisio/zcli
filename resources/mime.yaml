@@ -40,8 +40,7 @@ text/plain:
 text/x-dockerfile:
   compressible: true
   filenames:
-    - dockerfile
-    - "*.dockerfile"
+    - "@(dockerfile|*.dockerfile|Dockerfile|*.Dockerfile)"
 
 text/x-lua:
   shebangs:
