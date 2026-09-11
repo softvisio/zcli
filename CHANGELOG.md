@@ -1,5 +1,23 @@
 # Changelog
 
+### v4.4.3 (2026-09-11)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix mime patterns (● [37da87c](https://github.com/softvisio/zcli/commit/37da87c1); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor glob patterns (● [dca93bb](https://github.com/softvisio/zcli/commit/dca93bbf); 👬 zdm)
+
+- \[PATCH] refactor: update mime types (● [ca3bd28](https://github.com/softvisio/zcli/commit/ca3bd28a), [8c06960](https://github.com/softvisio/zcli/commit/8c06960c); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [26e52e8](https://github.com/softvisio/zcli/commit/26e52e8a), [45df54f](https://github.com/softvisio/zcli/commit/45df54fa), [3c0e60c](https://github.com/softvisio/zcli/commit/3c0e60c9), [150202f](https://github.com/softvisio/zcli/commit/150202fd), [630fdac](https://github.com/softvisio/zcli/commit/630fdacd), [955629c](https://github.com/softvisio/zcli/commit/955629c7); 👬 zdm)
+
+Compare with the previous release: [v4.4.2...v4.4.3](https://github.com/softvisio/zcli/compare/v4.4.2...v4.4.3)
+
 ### v4.4.2 (2026-09-07)
 
 **Code refactoring:**
