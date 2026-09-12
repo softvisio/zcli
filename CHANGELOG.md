@@ -1,5 +1,21 @@
 # Changelog
 
+### v4.4.4 (2026-09-12)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix mime types (● [015a01f](https://github.com/softvisio/zcli/commit/015a01fd); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: replace patterns caseSensitive with ignoreCase property (● [0b93f1c](https://github.com/softvisio/zcli/commit/0b93f1cf); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [5634a7f](https://github.com/softvisio/zcli/commit/5634a7fb), [9e255f4](https://github.com/softvisio/zcli/commit/9e255f46), [9599c34](https://github.com/softvisio/zcli/commit/9599c34f), [1ab5d35](https://github.com/softvisio/zcli/commit/1ab5d355), [beb9f22](https://github.com/softvisio/zcli/commit/beb9f22e); 👬 zdm)
+
+Compare with the previous release: [v4.4.3...v4.4.4](https://github.com/softvisio/zcli/compare/v4.4.3...v4.4.4)
+
 ### v4.4.3 (2026-09-11)
 
 **Bug fixes:**
