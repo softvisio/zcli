@@ -8,10 +8,7 @@ application/node:
 
 application/x-sh:
   filenames:
-    - .gitignore
-    - .npmignore
-    - .dockerignore
-    - .lintignore
+    - .@(git|npm|docker|lint)ignore
 
   shebangs:
     - /^#!(\/usr)?\/bin\/(sh|bash)/v
@@ -40,7 +37,7 @@ text/plain:
 text/x-dockerfile:
   compressible: true
   filenames:
-    - "@(dockerfile|*.dockerfile|Dockerfile|*.Dockerfile)"
+    - "@(*.|)[dD]ockerfile"
 
 text/x-lua:
   shebangs:
