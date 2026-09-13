@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.4.5 (2026-09-13)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [faaba75](https://github.com/softvisio/zcli/commit/faaba750), [296a941](https://github.com/softvisio/zcli/commit/296a9417); 👬 zdm)
+
+Compare with the previous release: [v4.4.4...v4.4.5](https://github.com/softvisio/zcli/compare/v4.4.4...v4.4.5)
+
 ### v4.4.4 (2026-09-12)
 
 **Bug fixes:**
