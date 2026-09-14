@@ -61,6 +61,10 @@ const spec = {
             "title": "Deb packages repository tools",
             "module": () => new URL( "../lib/commands/deb-repository.js", import.meta.url ),
         },
+        "ci": {
+            "title": "Git commit",
+            "module": () => new URL( "../lib/commands/ci.js", import.meta.url ),
+        },
         "git": {
             "title": "Git tools",
             "module": () => new URL( "../lib/commands/git.js", import.meta.url ),
