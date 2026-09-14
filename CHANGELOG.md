@@ -1,5 +1,21 @@
 # Changelog
 
+### v4.5.0 (2026-09-14)
+
+**New features:**
+
+- \[MINOR] feat: add git commit command (● [30f55f0](https://github.com/softvisio/zcli/commit/30f55f0b); 👬 zdm)
+
+    - register a new Git commit subcommand
+    - add ACP-based commit message generation from the current git diff
+    - add the @agentclientprotocol/sdk dependency needed by the new command
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename git hooks commands (● [d5a04b4](https://github.com/softvisio/zcli/commit/d5a04b4b); 👬 zdm)
+
+Compare with the previous release: [v4.4.6...v4.5.0](https://github.com/softvisio/zcli/compare/v4.4.6...v4.5.0)
+
 ### v4.4.6 (2026-09-14)
 
 **Other changes:**
