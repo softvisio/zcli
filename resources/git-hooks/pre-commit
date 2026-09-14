@@ -3,7 +3,7 @@
 set -Eeuo pipefail
 
 if [[ -x node_modules/.bin/zcli ]]; then
-    node_modules/.bin/zcli git pre-commit
+    node_modules/.bin/zcli git pre-commit-hook
 elif [[ -x "$(command -v zcli)" ]]; then
-    zcli git pre-commit
+    zcli git pre-commit-hook
 fi
