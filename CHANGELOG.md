@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.6.0 (2026-09-14)
+
+**New features:**
+
+- \[MINOR] feat: add ci command for git commit (● [eb710a3](https://github.com/softvisio/zcli/commit/eb710a3b); 👬 zdm)
+
+Compare with the previous release: [v4.5.0...v4.6.0](https://github.com/softvisio/zcli/compare/v4.5.0...v4.6.0)
+
 ### v4.5.0 (2026-09-14)
 
 **New features:**
