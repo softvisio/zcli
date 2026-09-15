@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.6.2 (2026-09-15)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct app component resolution path in docs (● [2fbc71e](https://github.com/softvisio/zcli/commit/2fbc71ea); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [bac85bd](https://github.com/softvisio/zcli/commit/bac85bda); 👬 zdm)
+
+Compare with the previous release: [v4.6.1...v4.6.2](https://github.com/softvisio/zcli/compare/v4.6.1...v4.6.2)
+
 ### v4.6.1 (2026-09-15)
 
 **Bug fixes:**
