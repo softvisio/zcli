@@ -1,5 +1,25 @@
 # Changelog
 
+### v4.6.1 (2026-09-15)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct path import in package release script (● [a95ef36](https://github.com/softvisio/zcli/commit/a95ef36a); 👬 zdm)
+
+- \[PATCH] fix: initialize changelog start release as GitRelease (● [49b8caa](https://github.com/softvisio/zcli/commit/49b8caac); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename lint file path variable (● [134f16c](https://github.com/softvisio/zcli/commit/134f16c7); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8b6170b](https://github.com/softvisio/zcli/commit/8b6170bf), [6fdd73a](https://github.com/softvisio/zcli/commit/6fdd73a1); 👬 zdm)
+
+- style: move commit confirmation blank line (● [051686f](https://github.com/softvisio/zcli/commit/051686ff); 👬 zdm)
+
+Compare with the previous release: [v4.6.0...v4.6.1](https://github.com/softvisio/zcli/compare/v4.6.0...v4.6.1)
+
 ### v4.6.0 (2026-09-14)
 
 **New features:**
