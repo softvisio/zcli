@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.6.4 (2026-09-15)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [20758ee](https://github.com/softvisio/zcli/commit/20758ee5); 👬 zdm)
+
+Compare with the previous release: [v4.6.3...v4.6.4](https://github.com/softvisio/zcli/compare/v4.6.3...v4.6.4)
+
 ### v4.6.3 (2026-09-15)
 
 **Other changes:**
