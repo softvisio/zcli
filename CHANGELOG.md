@@ -1,5 +1,35 @@
 # Changelog
 
+### v4.7.0 (2026-09-19)
+
+**New features:**
+
+- \[MINOR] feat: add cli commands aliases (● [d2cbe35](https://github.com/softvisio/zcli/commit/d2cbe35a); 👬 zdm)
+
+- \[MINOR] feat: add conditional promise lint config (● [8fcd3d7](https://github.com/softvisio/zcli/commit/8fcd3d7a); 👬 zdm)
+
+    Rename the promise plugin config entry to `code` and only include it when `this.code` is set. Update the JavaScript ESLint config to use plugin-specific import names for the mixed-in configs.
+
+**Bug fixes:**
+
+- \[PATCH] fix: use Git helper and separate file pathspecs from HEAD (● [35950ad](https://github.com/softvisio/zcli/commit/35950ad4); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename eslint code option to refactoring (● [5722a37](https://github.com/softvisio/zcli/commit/5722a37b); 👬 zdm)
+
+- \[PATCH] refactor: rename ESLint config classes (● [cb28294](https://github.com/softvisio/zcli/commit/cb282943); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [6a7895c](https://github.com/softvisio/zcli/commit/6a7895c2); 👬 zdm)
+
+- style: disable prettier for JavaScript linting (● [a8572cb](https://github.com/softvisio/zcli/commit/a8572cb2); 👬 zdm)
+
+- style: enforce single empty lines in ESLint config (● [157f843](https://github.com/softvisio/zcli/commit/157f8431); 👬 zdm)
+
+Compare with the previous release: [v4.6.5...v4.7.0](https://github.com/softvisio/zcli/compare/v4.6.5...v4.7.0)
+
 ### v4.6.5 (2026-09-19)
 
 **Bug fixes:**
