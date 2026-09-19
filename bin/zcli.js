@@ -58,11 +58,13 @@ const spec = {
         },
         "deb-repository": {
             "short": false,
+            "alias": "deb",
             "title": "Deb packages repository tools",
             "module": () => new URL( "../lib/commands/deb-repository.js", import.meta.url ),
         },
-        "ci": {
+        "commit": {
             "title": "Git commit",
+            "alias": "ci",
             "module": () => new URL( "../lib/commands/ci.js", import.meta.url ),
         },
         "git": {
