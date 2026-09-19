@@ -1,5 +1,25 @@
 # Changelog
 
+### v4.6.5 (2026-09-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: update Telegram client import path (● [e4f09d9](https://github.com/softvisio/zcli/commit/e4f09d9a); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor eslint config (● [c4abf88](https://github.com/softvisio/zcli/commit/c4abf887); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): add @corejslib/app-telegram (● [7582d29](https://github.com/softvisio/zcli/commit/7582d29e); 👬 zdm)
+
+- chore(deps): bump eslint-plugin-unicorn to ^75.0.0 (● [f057986](https://github.com/softvisio/zcli/commit/f0579862); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [106dd75](https://github.com/softvisio/zcli/commit/106dd758), [79ad05c](https://github.com/softvisio/zcli/commit/79ad05cd), [798865d](https://github.com/softvisio/zcli/commit/798865d1), [891d484](https://github.com/softvisio/zcli/commit/891d484f), [e72e8df](https://github.com/softvisio/zcli/commit/e72e8df6), [2b88322](https://github.com/softvisio/zcli/commit/2b88322c); 👬 zdm)
+
+Compare with the previous release: [v4.6.4...v4.6.5](https://github.com/softvisio/zcli/compare/v4.6.4...v4.6.5)
+
 ### v4.6.4 (2026-09-15)
 
 **Other changes:**
