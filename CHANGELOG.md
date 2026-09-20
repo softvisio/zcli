@@ -1,5 +1,33 @@
 # Changelog
 
+### v4.8.0 (2026-09-20)
+
+**New features:**
+
+- \[MINOR] feat: add short flags for lint config options (● [350a16a](https://github.com/softvisio/zcli/commit/350a16a5); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: remove redundant deb repository short flag (● [832a2c3](https://github.com/softvisio/zcli/commit/832a2c3f); 👬 zdm)
+
+- \[PATCH] refactor: rename ci command to commit (● [4d9f1b2](https://github.com/softvisio/zcli/commit/4d9f1b2e); 👬 zdm)
+
+**Other changes:**
+
+- build: enable unicorn/no-typeof-undefined lint rule (● [9bfb764](https://github.com/softvisio/zcli/commit/9bfb764e); 👬 zdm)
+
+- chore(deps): bump eslint-plugin-unicorn to ^76.0.0 (● [d88a83c](https://github.com/softvisio/zcli/commit/d88a83cf); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [23225ed](https://github.com/softvisio/zcli/commit/23225ed6), [4983687](https://github.com/softvisio/zcli/commit/4983687d), [140177a](https://github.com/softvisio/zcli/commit/140177a1), [0a976ec](https://github.com/softvisio/zcli/commit/0a976ecb); 👬 zdm)
+
+- style: adjust comma-dangle ESLint rules (● [8ac0271](https://github.com/softvisio/zcli/commit/8ac0271c); 👬 zdm)
+
+- style: enable unicorn no-immediate-mutation rule (● [0f572a8](https://github.com/softvisio/zcli/commit/0f572a87); 👬 zdm)
+
+- style: normalize ESLint config names (● [1e25980](https://github.com/softvisio/zcli/commit/1e25980c); 👬 zdm)
+
+Compare with the previous release: [v4.7.0...v4.8.0](https://github.com/softvisio/zcli/compare/v4.7.0...v4.8.0)
+
 ### v4.7.0 (2026-09-19)
 
 **New features:**
