@@ -64,7 +64,7 @@ const spec = {
         "commit": {
             "title": "Git commit",
             "alias": "ci",
-            "module": () => new URL( "../lib/commands/ci.js", import.meta.url ),
+            "module": () => new URL( "../lib/commands/commit.js", import.meta.url ),
         },
         "git": {
             "title": "Git tools",
