@@ -57,7 +57,6 @@ const spec = {
             "module": () => new URL( "../lib/commands/lsp.js", import.meta.url ),
         },
         "deb-repository": {
-            "short": false,
             "alias": "deb",
             "title": "Deb packages repository tools",
             "module": () => new URL( "../lib/commands/deb-repository.js", import.meta.url ),
