@@ -1,5 +1,45 @@
 # Changelog
 
+### v4.9.0 (2026-09-21)
+
+**New features:**
+
+- \[MINOR] feat: add experimental import-x resolver and rules (● [fa1277d](https://github.com/softvisio/zcli/commit/fa1277da); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: adjust import-x lint rules (● [64bebfd](https://github.com/softvisio/zcli/commit/64bebfd7); 👬 zdm)
+
+- \[PATCH] fix: enable import-x default rule (● [0320fc2](https://github.com/softvisio/zcli/commit/0320fc24); 👬 zdm)
+
+- \[PATCH] fix: enable import-x import validation rules (● [4b79ed6](https://github.com/softvisio/zcli/commit/4b79ed61); 👬 zdm)
+
+- \[PATCH] fix: enable import-x namespace linting (● [ecc2ea7](https://github.com/softvisio/zcli/commit/ecc2ea77); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: split import plugin configuration (● [7996290](https://github.com/softvisio/zcli/commit/79962902); 👬 zdm)
+
+**Other changes:**
+
+- chore: disable import-x namespace and named checks (● [6d0fbd2](https://github.com/softvisio/zcli/commit/6d0fbd2a); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [30e8a63](https://github.com/softvisio/zcli/commit/30e8a63f), [4e6628f](https://github.com/softvisio/zcli/commit/4e6628fb), [5379846](https://github.com/softvisio/zcli/commit/53798464), [2558fef](https://github.com/softvisio/zcli/commit/2558fefd); 👬 zdm)
+
+- style: disable import-x named-as-default-member lint rule (● [1e8d13c](https://github.com/softvisio/zcli/commit/1e8d13cb); 👬 zdm)
+
+- style: disable import-x no-named-default rule (● [996f6e6](https://github.com/softvisio/zcli/commit/996f6e6c); 👬 zdm)
+
+- style: enforce stricter import-x naming rules (● [a61b52f](https://github.com/softvisio/zcli/commit/a61b52f6); 👬 zdm)
+
+- style: note noop resolver is disabled (● [1b32f1d](https://github.com/softvisio/zcli/commit/1b32f1df); 👬 zdm)
+
+- style: relax import-x lint rules (● [40f2550](https://github.com/softvisio/zcli/commit/40f2550b); 👬 zdm)
+
+- style: reorder import-x resolver config and clean prettier import (● [366fbb4](https://github.com/softvisio/zcli/commit/366fbb4d); 👬 zdm)
+
+Compare with the previous release: [v4.8.0...v4.9.0](https://github.com/softvisio/zcli/compare/v4.8.0...v4.9.0)
+
 ### v4.8.0 (2026-09-20)
 
 **New features:**
