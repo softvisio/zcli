@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.10.1 (2026-09-24)
+
+**Other changes:**
+
+- chore(deps): bump prettier-plugin-sh to ^0.20.0 (● [aaa0154](https://github.com/softvisio/zcli/commit/aaa01547); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [41a799d](https://github.com/softvisio/zcli/commit/41a799d3), [7293ec5](https://github.com/softvisio/zcli/commit/7293ec52); 👬 zdm)
+
+Compare with the previous release: [v4.10.0...v4.10.1](https://github.com/softvisio/zcli/compare/v4.10.0...v4.10.1)
+
 ### v4.10.0 (2026-09-24)
 
 **New features:**
