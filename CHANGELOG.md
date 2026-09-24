@@ -1,5 +1,23 @@
 # Changelog
 
+### v4.10.0 (2026-09-24)
+
+**New features:**
+
+- \[MINOR] feat: add short flags for workspace resource update options (● [16e3c83](https://github.com/softvisio/zcli/commit/16e3c830); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: quote copilot ACP command arguments (● [1c4fa47](https://github.com/softvisio/zcli/commit/1c4fa475); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bump Node and npm engine requirements (● [68b440e](https://github.com/softvisio/zcli/commit/68b440ed); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [cbc9b83](https://github.com/softvisio/zcli/commit/cbc9b83e), [0654b49](https://github.com/softvisio/zcli/commit/0654b497), [5c39b9d](https://github.com/softvisio/zcli/commit/5c39b9d9), [fa940b8](https://github.com/softvisio/zcli/commit/fa940b87); 👬 zdm)
+
+Compare with the previous release: [v4.9.1...v4.10.0](https://github.com/softvisio/zcli/compare/v4.9.1...v4.10.0)
+
 ### v4.9.1 (2026-09-22)
 
 **Other changes:**
