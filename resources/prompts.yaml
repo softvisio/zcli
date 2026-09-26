@@ -15,8 +15,8 @@ commit-message: !ejs |-
   - Nothing before the fence, nothing after it. No explanations, no preamble.
   - Do not add any "Co-authored-by" trailer.
   - Base the message strictly on the actual diff — do not invent changes that aren't there.
-  - Do not run any git command other than `git diff --cached` (and `git diff --cached --stat` if helpful). Do not modify anything.
-  <% if ( types ) { %>
+  <% if ( types ) { -%>
+
   Conventional commit types allowed to use:
   <% for ( const [ type, options ] of Object.entries( types.types ) ) { -%>
 
