@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.10.3 (2026-09-26)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [3c55974](https://github.com/softvisio/zcli/commit/3c55974b); 👬 zdm)
+
+- docs: clarify commit message format instructions (● [59f119f](https://github.com/softvisio/zcli/commit/59f119f5); 👬 zdm)
+
+Compare with the previous release: [v4.10.2...v4.10.3](https://github.com/softvisio/zcli/compare/v4.10.2...v4.10.3)
+
 ### v4.10.2 (2026-09-26)
 
 **Bug fixes:**
