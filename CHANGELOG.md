@@ -1,5 +1,25 @@
 # Changelog
 
+### v4.10.2 (2026-09-26)
+
+**Bug fixes:**
+
+- \[PATCH] fix: enable js prettier (● [f3375bc](https://github.com/softvisio/zcli/commit/f3375bcc); 👬 zdm)
+
+- \[PATCH] fix: ignore reinstalled packages during update detection (● [4781c19](https://github.com/softvisio/zcli/commit/4781c194); 👬 zdm)
+
+- \[PATCH] fix: rename update-resources log option to verbose (● [684f740](https://github.com/softvisio/zcli/commit/684f7408); 👬 zdm)
+
+- \[PATCH] fix: skip removed package updates when package still exists (● [7679f60](https://github.com/softvisio/zcli/commit/7679f603); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [ad79f4b](https://github.com/softvisio/zcli/commit/ad79f4b4), [2528855](https://github.com/softvisio/zcli/commit/25288553), [7016e06](https://github.com/softvisio/zcli/commit/7016e061), [9c9f664](https://github.com/softvisio/zcli/commit/9c9f6647); 👬 zdm)
+
+- style: lint (● [5d39991](https://github.com/softvisio/zcli/commit/5d399913); 👬 zdm)
+
+Compare with the previous release: [v4.10.1...v4.10.2](https://github.com/softvisio/zcli/compare/v4.10.1...v4.10.2)
+
 ### v4.10.1 (2026-09-24)
 
 **Other changes:**
