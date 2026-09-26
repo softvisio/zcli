@@ -1,5 +1,25 @@
 # Changelog
 
+### v4.10.4 (2026-09-26)
+
+**Bug fixes:**
+
+- \[PATCH] fix: allow package updates through removal and reinstall checks (● [e7e1748](https://github.com/softvisio/zcli/commit/e7e17480); 👬 zdm)
+
+- \[PATCH] fix: await commit message prompt rendering (● [38055ee](https://github.com/softvisio/zcli/commit/38055ee9); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: externalize commit message prompt (● [ff09471](https://github.com/softvisio/zcli/commit/ff094715); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [0369834](https://github.com/softvisio/zcli/commit/0369834a), [3409930](https://github.com/softvisio/zcli/commit/34099304), [4f607ab](https://github.com/softvisio/zcli/commit/4f607ab6); 👬 zdm)
+
+- docs: refine commit prompt instructions (● [a3bddb2](https://github.com/softvisio/zcli/commit/a3bddb25); 👬 zdm)
+
+Compare with the previous release: [v4.10.3...v4.10.4](https://github.com/softvisio/zcli/compare/v4.10.3...v4.10.4)
+
 ### v4.10.3 (2026-09-26)
 
 **Other changes:**
