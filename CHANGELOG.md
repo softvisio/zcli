@@ -1,5 +1,21 @@
 # Changelog
 
+### v4.10.5 (2026-09-27)
+
+**Bug fixes:**
+
+- \[PATCH] fix: await localization file loading (● [185b11b](https://github.com/softvisio/zcli/commit/185b11b1); 👬 zdm)
+
+- \[PATCH] fix: correct extracted message registration (● [bb845fa](https://github.com/softvisio/zcli/commit/bb845fa1); 👬 zdm)
+
+- \[PATCH] fix: update fuzzy state handling in localization (● [34d4601](https://github.com/softvisio/zcli/commit/34d4601a); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [9ef8a26](https://github.com/softvisio/zcli/commit/9ef8a263), [f6bd990](https://github.com/softvisio/zcli/commit/f6bd9904), [aa51961](https://github.com/softvisio/zcli/commit/aa519610); 👬 zdm)
+
+Compare with the previous release: [v4.10.4...v4.10.5](https://github.com/softvisio/zcli/compare/v4.10.4...v4.10.5)
+
 ### v4.10.4 (2026-09-26)
 
 **Bug fixes:**
