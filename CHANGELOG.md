@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.11.0 (2026-09-27)
+
+**New features:**
+
+- \[MINOR] feat: cache Copilot session and update translation memory path (● [f8657cc](https://github.com/softvisio/zcli/commit/f8657cc7); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: create session directory before saving Copilot sessionfix: ensure Copilot session directory exists before writing session config (● [54df75a](https://github.com/softvisio/zcli/commit/54df75ac); 👬 zdm)
+
+Compare with the previous release: [v4.10.5...v4.11.0](https://github.com/softvisio/zcli/compare/v4.10.5...v4.11.0)
+
 ### v4.10.5 (2026-09-27)
 
 **Bug fixes:**
