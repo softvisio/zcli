@@ -1,5 +1,29 @@
 # Changelog
 
+### v4.12.0 (2026-09-29)
+
+**New features:**
+
+- \[MINOR] feat: add resources updater patterns (● [d9d3a34](https://github.com/softvisio/zcli/commit/d9d3a34d), [a5f7bd9](https://github.com/softvisio/zcli/commit/a5f7bd97); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct translation memory storage path (● [cfab4c9](https://github.com/softvisio/zcli/commit/cfab4c9a); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8993548](https://github.com/softvisio/zcli/commit/8993548f), [d35b203](https://github.com/softvisio/zcli/commit/d35b2035); 👬 zdm)
+
+- Revert "feat: cache Copilot session and update translation memory path" (● [4471958](https://github.com/softvisio/zcli/commit/4471958f); 👬 zdm)
+
+    This reverts commit [f8657cc](https://github.com/softvisio/zcli/commit/f8657cc7eb64545f6b91d02dae097ac1e254cfd9).
+
+- Revert "fix: create session directory before saving Copilot sessionfix: ensure Copilot session directory exists before writing session config" (● [957af50](https://github.com/softvisio/zcli/commit/957af50d); 👬 zdm)
+
+    This reverts commit [54df75a](https://github.com/softvisio/zcli/commit/54df75ac3659143a9432e39af47f619be5b7b656).
+
+Compare with the previous release: [v4.11.0...v4.12.0](https://github.com/softvisio/zcli/compare/v4.11.0...v4.12.0)
+
 ### v4.11.0 (2026-09-27)
 
 **New features:**
