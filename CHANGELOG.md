@@ -1,5 +1,27 @@
 # Changelog
 
+### v4.12.1 (2026-10-04)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct ESLint experimental flag name (● [433950c](https://github.com/softvisio/zcli/commit/433950c1); 👬 zdm)
+
+- \[PATCH] fix: prevent package link reinstall during dependency update (● [24962ec](https://github.com/softvisio/zcli/commit/24962ecb); 👬 zdm)
+
+    Link command now only updates dependencies when `--update` is enabled without `--dry-run`, keeps the commit flow, and avoids reinstalling packages during the linked workspace refresh.
+
+- \[PATCH] fix: update linked package dependencies before linking (● [3f90865](https://github.com/softvisio/zcli/commit/3f908658); 👬 zdm)
+
+**Other changes:**
+
+- chore: add unicorn lint rules (● [1d395b0](https://github.com/softvisio/zcli/commit/1d395b05); 👬 zdm)
+
+- chore(deps): update eslint-plugin-unicorn to 77.0.0 (● [23ec038](https://github.com/softvisio/zcli/commit/23ec038c); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [f567efd](https://github.com/softvisio/zcli/commit/f567efdb), [f7264e3](https://github.com/softvisio/zcli/commit/f7264e37), [8e52926](https://github.com/softvisio/zcli/commit/8e529261), [9c43c58](https://github.com/softvisio/zcli/commit/9c43c58e), [2429f7d](https://github.com/softvisio/zcli/commit/2429f7d2), [3364555](https://github.com/softvisio/zcli/commit/33645555), [cc68f2b](https://github.com/softvisio/zcli/commit/cc68f2b3), [424bbdb](https://github.com/softvisio/zcli/commit/424bbdbd), [30dc98a](https://github.com/softvisio/zcli/commit/30dc98ac), [a271a59](https://github.com/softvisio/zcli/commit/a271a59d), [b5810b2](https://github.com/softvisio/zcli/commit/b5810b2e), [0201893](https://github.com/softvisio/zcli/commit/0201893e); 👬 zdm)
+
+Compare with the previous release: [v4.12.0...v4.12.1](https://github.com/softvisio/zcli/compare/v4.12.0...v4.12.1)
+
 ### v4.12.0 (2026-09-29)
 
 **New features:**
