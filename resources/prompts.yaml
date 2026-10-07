@@ -59,7 +59,7 @@ translate-po-files: !ejs |-
 
   ```javascript
   {
-  poUpdated: false, // true - if one or more .po files were updated
-  sourcesUpdated: false, // true - if one or more source files were updated
+      "poUpdated": false, // true - if one or more .po files were updated
+      "sourcesUpdated": false, // true - if one or more source files were updated
   }
   ```
