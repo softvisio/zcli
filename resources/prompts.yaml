@@ -1,7 +1,7 @@
 commit-message: !ejs |-
-  You MUST execute the `<%- diffCommand %>` tool call and read its real output before writing anything. Do not modify command, execute exactly the provided command.
+  You MUST execute the `<%- diffCommand %>` tool call and read its real output before writing anything. Do not modify the command; execute exactly the provided command.
 
-  Then write a single commit message following the Conventional Commits format. Do not answer from assumption, memory, or a typical/generic example — if you have not run the command yet, run it now before responding.
+  Then write a single commit message following the Conventional Commits format. Do not answer from assumption, memory, or a generic example — if you have not run the command yet, run it now before responding.
 
   Rules:
   - Output ONLY the commit message, using following format (without surrounding ```):
@@ -34,3 +34,32 @@ commit-message: !ejs |-
   <% } -%>
   <% } -%>
   <% } -%>
+
+translate-po-files: !ejs |-
+  For the following `.po` files:
+  <% for ( const localization of localizations ) { -%>
+    - `<%- localization.relativePath %>`;
+  <% } -%>
+
+  - Add missing translations.
+
+  - Check and fix existing translations.
+
+  - Pay attention to punctuation; it MUST match.
+
+  - Completely ignore obsolete messages.
+
+  - Check source message spelling. If an error is found:
+      - Update the message in the source code (by references in `#:`) and in the `po` file.
+      - If this is not possible, add the `fuzzy` tag and create a comment with a description.
+
+  - Do not try to run any tools except read and write files.
+
+  - Return ONLY the following JSON:
+
+  ```javascript
+  {
+  poUpdated: false, // true - if one or more .po files were updated
+  sourcesUpdated: false, // true - if one or more source files were updated
+  }
+  ```
