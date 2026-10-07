@@ -1,5 +1,27 @@
 # Changelog
 
+### v4.13.1 (2026-10-07)
+
+**Bug fixes:**
+
+- \[PATCH] fix: preserve selected translation conflict resolution (● [2bde769](https://github.com/softvisio/zcli/commit/2bde7694); 👬 zdm)
+
+    Compare old and new translations consistently, and apply the user's selected version.
+
+- \[PATCH] fix: sync translation memory before and after translation (● [402e6b2](https://github.com/softvisio/zcli/commit/402e6b23); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [e77e34f](https://github.com/softvisio/zcli/commit/e77e34fa); 👬 zdm)
+
+- style: format translation memory conflict output (● [1118fb8](https://github.com/softvisio/zcli/commit/1118fb85); 👬 zdm)
+
+- style: improve translation conflict formatting (● [ec54297](https://github.com/softvisio/zcli/commit/ec542977), [f1d1542](https://github.com/softvisio/zcli/commit/f1d15425); 👬 zdm)
+
+- style: use singular translation labels in localization output (● [a078012](https://github.com/softvisio/zcli/commit/a078012f); 👬 zdm)
+
+Compare with the previous release: [v4.13.0...v4.13.1](https://github.com/softvisio/zcli/compare/v4.13.0...v4.13.1)
+
 ### v4.13.0 (2026-10-07)
 
 **New features:**
