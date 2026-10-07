@@ -1,5 +1,56 @@
 # Changelog
 
+### v4.13.0 (2026-10-07)
+
+**New features:**
+
+- \[MINOR] feat: add package localization tooling (● [1d94321](https://github.com/softvisio/zcli/commit/1d943219); 👬 zdm)
+
+    - add a reusable Copilot ACP session wrapper and permission handling
+    - add package localization commands for adding and updating PO files
+    - extend localization updates with optional obsolete-message cleanup and translation-memory sync
+    - rename the package localization command group to `localization` and wire in the new subcommands
+
+- \[MINOR] feat: add po files support to linter (● [b76834a](https://github.com/softvisio/zcli/commit/b76834ad), [19ec231](https://github.com/softvisio/zcli/commit/19ec231f); 👬 zdm)
+
+- \[MINOR] feat: add translation memory merge and translation options (● [4c9b17a](https://github.com/softvisio/zcli/commit/4c9b17ad); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: do not check messages size (● [b598fff](https://github.com/softvisio/zcli/commit/b598fff6); 👬 zdm)
+
+- \[PATCH] fix: fix translation conflicts resolver (● [67efb58](https://github.com/softvisio/zcli/commit/67efb589); 👬 zdm)
+
+- \[PATCH] fix: ignore fuzzy messages during translation (● [d9731ce](https://github.com/softvisio/zcli/commit/d9731ce8); 👬 zdm)
+
+- \[PATCH] fix: increase branch name column width (● [cc3a6a3](https://github.com/softvisio/zcli/commit/cc3a6a3a); 👬 zdm)
+
+- \[PATCH] fix: preserve markdown code-language replacement defaults (● [a7c78da](https://github.com/softvisio/zcli/commit/a7c78dab); 👬 zdm)
+
+- \[PATCH] fix: update activity controller callback names (● [859c489](https://github.com/softvisio/zcli/commit/859c489a); 👬 zdm)
+
+    The ActivityController initialization now uses the correct callback property names for start/stop handlers.
+
+**Code refactoring:**
+
+- \[PATCH] refactor: centralize PO file writes (● [a351067](https://github.com/softvisio/zcli/commit/a3510670); 👬 zdm)
+
+- \[PATCH] refactor: manage Copilot resources with async disposal (● [03e0739](https://github.com/softvisio/zcli/commit/03e0739a); 👬 zdm)
+
+- \[PATCH] refactor: rename localization merge option to manual (● [0e358e5](https://github.com/softvisio/zcli/commit/0e358e57); 👬 zdm)
+
+- \[PATCH] refactor: return shutdown promises from async disposal hooks (● [fcc0807](https://github.com/softvisio/zcli/commit/fcc0807a); 👬 zdm)
+
+**Other changes:**
+
+- chore: clarify commit-message prompt instructions (● [eb41235](https://github.com/softvisio/zcli/commit/eb412359); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [5ef2150](https://github.com/softvisio/zcli/commit/5ef2150c), [f8ab10b](https://github.com/softvisio/zcli/commit/f8ab10bc), [67777bb](https://github.com/softvisio/zcli/commit/67777bbc), [deb01db](https://github.com/softvisio/zcli/commit/deb01db8), [9c359c9](https://github.com/softvisio/zcli/commit/9c359c95), [940b832](https://github.com/softvisio/zcli/commit/940b8320); 👬 zdm)
+
+- style: format translation result example as JSON (● [268967f](https://github.com/softvisio/zcli/commit/268967fb); 👬 zdm)
+
+Compare with the previous release: [v4.12.1...v4.13.0](https://github.com/softvisio/zcli/compare/v4.12.1...v4.13.0)
+
 ### v4.12.1 (2026-10-04)
 
 **Bug fixes:**
