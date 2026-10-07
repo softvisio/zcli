@@ -1,10 +1,11 @@
 commit-message: !ejs |-
-  You MUST execute the `<%- diffCommand %>` tool call and read its real output before writing anything. Do not modify the command; execute exactly the provided command.
-
-  Then write a single commit message following the Conventional Commits format. Do not answer from assumption, memory, or a generic example — if you have not run the command yet, run it now before responding.
+  Execute the `<%- diffCommand %>` tool call and read its real output before writing anything.
+  Then write a single commit message following the Conventional Commits format.
 
   Rules:
-  - Output ONLY the commit message, using following format (without surrounding ```):
+  - Do not modify the command; execute exactly the provided command.
+  - Do not try to execute any other tools.
+  - Output ONLY the commit message, using the following format (without surrounding ```):
 
   ```
   type(scope): subject line
@@ -12,7 +13,6 @@ commit-message: !ejs |-
   optional body
   ```
 
-  - Nothing before the fence, nothing after it. No explanations, no preamble.
   - Do not add any "Co-authored-by" trailer.
   - Base the message strictly on the actual diff — do not invent changes that aren't there.
   <% if ( types ) { -%>
