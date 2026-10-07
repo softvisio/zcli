@@ -49,6 +49,8 @@ translate-po-files: !ejs |-
 
   - Completely ignore obsolete messages.
 
+  - Do not translate messages marked with `fuzzy` tag and do not remove `fuzzy` tag.
+
   - Check source message spelling. If an error is found:
       - Update the message in the source code (by references in `#:`) and in the `po` file.
       - If this is not possible, add the `fuzzy` tag and create a comment with a description.
