@@ -48,6 +48,12 @@ text/x-peggy:
   extnames:
     - .peggy
 
+text/x-po:
+  compressible: true
+  extnames:
+    - .po
+    - .pot
+
 text/x-vim:
   compressible: true
   extnames:
