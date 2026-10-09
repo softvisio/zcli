@@ -1,5 +1,25 @@
 # Changelog
 
+### v4.14.0 (2026-10-09)
+
+**New features:**
+
+- \[MINOR] feat: add short translate flag for AI localization (● [43f2a12](https://github.com/softvisio/zcli/commit/43f2a121); 👬 zdm)
+
+- \[MINOR] feat: make AI translation opt-in (● [9f15986](https://github.com/softvisio/zcli/commit/9f159867); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: do not translate using ai if translation will be discarded (● [c293ebb](https://github.com/softvisio/zcli/commit/c293ebb5), [14d049d](https://github.com/softvisio/zcli/commit/14d049dd); 👬 zdm)
+
+- \[PATCH] fix: fix package localization command (● [45bc7f6](https://github.com/softvisio/zcli/commit/45bc7f60); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [7eb806a](https://github.com/softvisio/zcli/commit/7eb806ad), [bddac14](https://github.com/softvisio/zcli/commit/bddac143), [30efb2b](https://github.com/softvisio/zcli/commit/30efb2b2); 👬 zdm)
+
+Compare with the previous release: [v4.13.1...v4.14.0](https://github.com/softvisio/zcli/compare/v4.13.1...v4.14.0)
+
 ### v4.13.1 (2026-10-07)
 
 **Bug fixes:**
