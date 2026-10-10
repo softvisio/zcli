@@ -30,6 +30,11 @@ const spec = {
             "title": "Docker tools",
             "module": () => new URL( "../lib/commands/docker.js", import.meta.url ),
         },
+        "localization": {
+            "alias": "loc",
+            "title": "Work with package localization",
+            "module": () => new URL( "../lib/commands/localization.js", import.meta.url ),
+        },
         "package": {
             "short": "p",
             "title": "Package tools",
