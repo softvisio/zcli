@@ -32,7 +32,7 @@ const spec = {
         },
         "localization": {
             "alias": "loc",
-            "title": "Work with package localization",
+            "title": "Localization tools",
             "module": () => new URL( "../lib/commands/localization.js", import.meta.url ),
         },
         "package": {
