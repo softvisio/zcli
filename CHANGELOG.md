@@ -1,5 +1,35 @@
 # Changelog
 
+### v4.15.0 (2026-10-10)
+
+**New features:**
+
+- \[MINOR] feat: add localization command (● [6253019](https://github.com/softvisio/zcli/commit/62530190); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: find all package roots for localization updates (● [2712b29](https://github.com/softvisio/zcli/commit/2712b298); 👬 zdm)
+
+- \[PATCH] fix: update command metadata and documentation paths (● [4493a3c](https://github.com/softvisio/zcli/commit/4493a3cb); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: move documentation commands under package (● [8cad2a8](https://github.com/softvisio/zcli/commit/8cad2a86); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [c2ca83e](https://github.com/softvisio/zcli/commit/c2ca83ef), [e99feec](https://github.com/softvisio/zcli/commit/e99feec9); 👬 zdm)
+
+- docs: update localization command titles (● [2be8ff9](https://github.com/softvisio/zcli/commit/2be8ff98); 👬 zdm)
+
+    Adjust the localization command labels to better reflect the command set and wording:
+
+    - "Work with package localization" -> "Localization tools"
+    - "Update localization" -> "Update localizations"
+    - "Add localization" -> "Add localization language"
+
+Compare with the previous release: [v4.14.2...v4.15.0](https://github.com/softvisio/zcli/compare/v4.14.2...v4.15.0)
+
 ### v4.14.2 (2026-10-09)
 
 **Other changes:**
