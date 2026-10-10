@@ -31,11 +31,6 @@ const spec = {
             "title": "Docker tools",
             "module": () => new URL( "../lib/commands/docker.js", import.meta.url ),
         },
-        "docs": {
-            "short": "d",
-            "title": "Documentation tools",
-            "module": () => new URL( "../lib/commands/docs.js", import.meta.url ),
-        },
         "package": {
             "short": "p",
             "title": "Package tools",
