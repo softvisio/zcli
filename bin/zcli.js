@@ -12,7 +12,6 @@ const spec = {
             "module": () => new URL( "../lib/commands/ls.js", import.meta.url ),
         },
         "lint": {
-            "short": "L",
             "title": "Lint sources",
             "module": () => new URL( "../lib/commands/lint.js", import.meta.url ),
         },
@@ -27,7 +26,7 @@ const spec = {
             "module": () => new URL( "../lib/commands/log.js", import.meta.url ),
         },
         "docker": {
-            "short": "D",
+            "short": "d",
             "title": "Docker tools",
             "module": () => new URL( "../lib/commands/docker.js", import.meta.url ),
         },
