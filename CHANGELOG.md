@@ -1,5 +1,19 @@
 # Changelog
 
+### v4.15.1 (2026-10-12)
+
+**Other changes:**
+
+- chore: disable two Unicorn rules (● [63d08bd](https://github.com/softvisio/zcli/commit/63d08bde); 👬 zdm)
+
+- chore: disable unicorn/prefer-array-from-map rule (● [f57b3f8](https://github.com/softvisio/zcli/commit/f57b3f8f); 👬 zdm)
+
+- chore(deps): update eslint-plugin-unicorn to v78.0.0 (● [758cae8](https://github.com/softvisio/zcli/commit/758cae82); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [64ca402](https://github.com/softvisio/zcli/commit/64ca402e), [bf19dfa](https://github.com/softvisio/zcli/commit/bf19dfa7), [ef7da08](https://github.com/softvisio/zcli/commit/ef7da082), [79fb0f0](https://github.com/softvisio/zcli/commit/79fb0f0f), [e55192f](https://github.com/softvisio/zcli/commit/e55192ff), [84cecfd](https://github.com/softvisio/zcli/commit/84cecfd4), [970087a](https://github.com/softvisio/zcli/commit/970087a7), [f8c6908](https://github.com/softvisio/zcli/commit/f8c69084); 👬 zdm)
+
+Compare with the previous release: [v4.15.0...v4.15.1](https://github.com/softvisio/zcli/compare/v4.15.0...v4.15.1)
+
 ### v4.15.0 (2026-10-10)
 
 **New features:**
