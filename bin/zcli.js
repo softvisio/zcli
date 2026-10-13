@@ -50,10 +50,10 @@ const spec = {
             "title": "Generate data",
             "module": () => new URL( "../lib/commands/generate.js", import.meta.url ),
         },
-        "lsp": {
+        "rpc": {
             "short": "r",
-            "title": "Manage LSP service",
-            "module": () => new URL( "../lib/commands/lsp.js", import.meta.url ),
+            "title": "Manage RPC service",
+            "module": () => new URL( "../lib/commands/rpc.js", import.meta.url ),
         },
         "deb-repository": {
             "alias": "deb",
