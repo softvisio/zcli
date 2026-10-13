@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.16.1 (2026-10-13)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename LSP service command to RPC (● [6568d4e](https://github.com/softvisio/zcli/commit/6568d4e2); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [5ac4c37](https://github.com/softvisio/zcli/commit/5ac4c374); 👬 zdm)
+
+Compare with the previous release: [v4.16.0...v4.16.1](https://github.com/softvisio/zcli/compare/v4.16.0...v4.16.1)
+
 ### v4.16.0 (2026-10-13)
 
 **New features:**
