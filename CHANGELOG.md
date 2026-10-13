@@ -1,5 +1,21 @@
 # Changelog
 
+### v4.16.0 (2026-10-13)
+
+**New features:**
+
+- \[MINOR] feat: add command aliases and normalize shortcuts (● [14d40cd](https://github.com/softvisio/zcli/commit/14d40cdf); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update cli aliases (● [9f7cf88](https://github.com/softvisio/zcli/commit/9f7cf881), [c3bc9e8](https://github.com/softvisio/zcli/commit/c3bc9e84); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [67696d7](https://github.com/softvisio/zcli/commit/67696d77), [363e7bb](https://github.com/softvisio/zcli/commit/363e7bb6); 👬 zdm)
+
+Compare with the previous release: [v4.15.2...v4.16.0](https://github.com/softvisio/zcli/compare/v4.15.2...v4.16.0)
+
 ### v4.15.2 (2026-10-12)
 
 **Other changes:**
