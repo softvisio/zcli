@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.16.3 (2026-10-14)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remap repository and Docker command shortcuts (● [6e97020](https://github.com/softvisio/zcli/commit/6e970200); 👬 zdm)
+
+Compare with the previous release: [v4.16.2...v4.16.3](https://github.com/softvisio/zcli/compare/v4.16.2...v4.16.3)
+
 ### v4.16.2 (2026-10-14)
 
 **Other changes:**
