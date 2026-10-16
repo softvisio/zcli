@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.16.4 (2026-10-16)
+
+**Other changes:**
+
+- build(deps): update @corejslib/core to 8.39.0 (● [d532363](https://github.com/softvisio/zcli/commit/d5323636); 👬 zdm)
+
+    Migrate Copilot lifecycle handling to LifecycleManager.
+
+- chore(deps): update locked dependencies (● [480ba0f](https://github.com/softvisio/zcli/commit/480ba0f2), [e9bc9e8](https://github.com/softvisio/zcli/commit/e9bc9e85); 👬 zdm)
+
+Compare with the previous release: [v4.16.3...v4.16.4](https://github.com/softvisio/zcli/compare/v4.16.3...v4.16.4)
+
 ### v4.16.3 (2026-10-14)
 
 **Bug fixes:**
