@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.17.0 (2026-10-16)
+
+**New features:**
+
+- \[MINOR] feat: add `up` alias to localization update command (● [81ef787](https://github.com/softvisio/zcli/commit/81ef787e); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8cbf0a6](https://github.com/softvisio/zcli/commit/8cbf0a61); 👬 zdm)
+
+Compare with the previous release: [v4.16.4...v4.17.0](https://github.com/softvisio/zcli/compare/v4.16.4...v4.17.0)
+
 ### v4.16.4 (2026-10-16)
 
 **Other changes:**
