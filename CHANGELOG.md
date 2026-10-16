@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.17.2 (2026-10-16)
+
+**Bug fixes:**
+
+- \[PATCH] fix: call the lifecycle manager's waitStart method (● [053f78c](https://github.com/softvisio/zcli/commit/053f78cf); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [bbcf331](https://github.com/softvisio/zcli/commit/bbcf331f); 👬 zdm)
+
+Compare with the previous release: [v4.17.1...v4.17.2](https://github.com/softvisio/zcli/compare/v4.17.1...v4.17.2)
+
 ### v4.17.1 (2026-10-16)
 
 **Bug fixes:**
