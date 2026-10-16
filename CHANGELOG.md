@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.17.1 (2026-10-16)
+
+**Bug fixes:**
+
+- \[PATCH] fix: pass signal options to lifecycle start wait (● [312695d](https://github.com/softvisio/zcli/commit/312695dc); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [05b3f2c](https://github.com/softvisio/zcli/commit/05b3f2c1); 👬 zdm)
+
+Compare with the previous release: [v4.17.0...v4.17.1](https://github.com/softvisio/zcli/compare/v4.17.0...v4.17.1)
+
 ### v4.17.0 (2026-10-16)
 
 **New features:**
