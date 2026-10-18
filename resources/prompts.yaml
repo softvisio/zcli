@@ -5,6 +5,7 @@ commit-message: !ejs |-
   Rules:
   - Do not modify the command; execute exactly the provided command.
   - Do not try to execute any other tools.
+  - Commit message subject should not starts with capital letter.
   - Output ONLY the commit message, using the following format (without surrounding ```):
 
   ```
