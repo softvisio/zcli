@@ -40,7 +40,7 @@
         "test": "node --test \"tests/**/*.test.js\""
     },
     "dependencies": {
-        "@agentclientprotocol/sdk": "^1.4.0",
+        "@agentclientprotocol/sdk": "^2.0.0",
         "@corejslib/app-telegram": "^1.0.4",
         "@corejslib/core": "^8.0.0",
         "@corejslib/eslint-plugin": "^1.0.1",
