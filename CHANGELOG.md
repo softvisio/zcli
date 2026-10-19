@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.17.5 (2026-10-19)
+
+**Other changes:**
+
+- build(deps): upgrade agent client protocol sdk to v2 (● [4b206b1](https://github.com/softvisio/zcli/commit/4b206b1b); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [76a6d04](https://github.com/softvisio/zcli/commit/76a6d04a), [962ebaf](https://github.com/softvisio/zcli/commit/962ebaf3), [8ec1e76](https://github.com/softvisio/zcli/commit/8ec1e76b); 👬 zdm)
+
+Compare with the previous release: [v4.17.4...v4.17.5](https://github.com/softvisio/zcli/compare/v4.17.4...v4.17.5)
+
 ### v4.17.4 (2026-10-19)
 
 **Other changes:**
