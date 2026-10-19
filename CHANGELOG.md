@@ -1,5 +1,23 @@
 # Changelog
 
+### v4.17.3 (2026-10-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: mark Copilot as stopped on shutdown (● [d1f857a](https://github.com/softvisio/zcli/commit/d1f857a8); 👬 zdm)
+
+- \[PATCH] fix: remove RPC client connection limit override (● [262ec08](https://github.com/softvisio/zcli/commit/262ec083); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): update @corejslib/core to 8.39.6 (● [4da8e9d](https://github.com/softvisio/zcli/commit/4da8e9de); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [7f7846a](https://github.com/softvisio/zcli/commit/7f7846a8), [c6703c5](https://github.com/softvisio/zcli/commit/c6703c5e), [8c3c327](https://github.com/softvisio/zcli/commit/8c3c327a), [00fc226](https://github.com/softvisio/zcli/commit/00fc2263), [52b95c3](https://github.com/softvisio/zcli/commit/52b95c32), [194b3ce](https://github.com/softvisio/zcli/commit/194b3ce4), [35ee505](https://github.com/softvisio/zcli/commit/35ee5058); 👬 zdm)
+
+- docs: clarify commit message subject capitalization rule (● [daa01d3](https://github.com/softvisio/zcli/commit/daa01d39); 👬 zdm)
+
+Compare with the previous release: [v4.17.2...v4.17.3](https://github.com/softvisio/zcli/compare/v4.17.2...v4.17.3)
+
 ### v4.17.2 (2026-10-16)
 
 **Bug fixes:**
