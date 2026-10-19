@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.17.6 (2026-10-19)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: migrate to fluent ACP client connection API (● [0cd073b](https://github.com/softvisio/zcli/commit/0cd073b1); 👬 zdm)
+
+Compare with the previous release: [v4.17.5...v4.17.6](https://github.com/softvisio/zcli/compare/v4.17.5...v4.17.6)
+
 ### v4.17.5 (2026-10-19)
 
 **Other changes:**
