@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.17.8 (2026-10-20)
+
+**Other changes:**
+
+- style: clarify package operation progress logs (● [f45a80a](https://github.com/softvisio/zcli/commit/f45a80a0); 👬 zdm)
+
+Compare with the previous release: [v4.17.7...v4.17.8](https://github.com/softvisio/zcli/compare/v4.17.7...v4.17.8)
+
 ### v4.17.7 (2026-10-19)
 
 **Other changes:**
