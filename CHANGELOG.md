@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.17.9 (2026-10-20)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [216dc3a](https://github.com/softvisio/zcli/commit/216dc3ae); 👬 zdm)
+
+- style: streamline git command logging (● [97952a7](https://github.com/softvisio/zcli/commit/97952a71); 👬 zdm)
+
+Compare with the previous release: [v4.17.8...v4.17.9](https://github.com/softvisio/zcli/compare/v4.17.8...v4.17.9)
+
 ### v4.17.8 (2026-10-20)
 
 **Other changes:**
