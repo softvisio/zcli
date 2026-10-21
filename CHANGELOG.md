@@ -1,5 +1,19 @@
 # Changelog
 
+### v4.18.0 (2026-10-21)
+
+**New features:**
+
+- \[MINOR] feat: disable autofix for unicorn useless-spread rule (● [0b8386a](https://github.com/softvisio/zcli/commit/0b8386ac); 👬 zdm)
+
+**Other changes:**
+
+- chore: disable corrupting unicorn spread rule (● [8cc9801](https://github.com/softvisio/zcli/commit/8cc9801d); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [044f25d](https://github.com/softvisio/zcli/commit/044f25d4), [eb3a464](https://github.com/softvisio/zcli/commit/eb3a4644), [18ab588](https://github.com/softvisio/zcli/commit/18ab5884), [5384a6a](https://github.com/softvisio/zcli/commit/5384a6a3); 👬 zdm)
+
+Compare with the previous release: [v4.17.9...v4.18.0](https://github.com/softvisio/zcli/compare/v4.17.9...v4.18.0)
+
 ### v4.17.9 (2026-10-20)
 
 **Other changes:**
