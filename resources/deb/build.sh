@@ -86,6 +86,8 @@ function _build_local() {
 }
 
 function _build() { (
+    apt-get update
+
     build
 ); }
 
