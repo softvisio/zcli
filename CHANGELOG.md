@@ -1,5 +1,39 @@
 # Changelog
 
+### v4.19.0 (2026-10-24)
+
+**New features:**
+
+- \[MINOR] feat: add commit --no-verify option (● [2d36587](https://github.com/softvisio/zcli/commit/2d365878); 👬 zdm)
+
+- \[MINOR] feat: support commit signoff option (● [ee3ed08](https://github.com/softvisio/zcli/commit/ee3ed088); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: handle copilot session lifecycle correctly (● [3945f99](https://github.com/softvisio/zcli/commit/3945f995); 👬 zdm)
+
+    Normalize unset execution permission, correct warning output, and stop the lifecycle manager when the process exits unexpectedly.
+
+- \[PATCH] fix: reassign deb repository short options (● [2d9a1b9](https://github.com/softvisio/zcli/commit/2d9a1b9e); 👬 zdm)
+
+- \[PATCH] fix: stop copilot process after startup abort (● [7a93825](https://github.com/softvisio/zcli/commit/7a93825b); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: change commit force option to yes (● [bc4bb4f](https://github.com/softvisio/zcli/commit/bc4bb4f3); 👬 zdm)
+
+- \[PATCH] refactor: rename disable-autofix config to no-fix (● [71cb5f9](https://github.com/softvisio/zcli/commit/71cb5f92); 👬 zdm)
+
+**Other changes:**
+
+- build: update apt package indexes before build (● [1149a85](https://github.com/softvisio/zcli/commit/1149a85b); 👬 zdm)
+
+- chore(deps): update eslint-plugin-unicorn to 79.0.0 (● [dd54d99](https://github.com/softvisio/zcli/commit/dd54d999); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [2f83ca6](https://github.com/softvisio/zcli/commit/2f83ca63), [1ce5fa5](https://github.com/softvisio/zcli/commit/1ce5fa56), [2df429b](https://github.com/softvisio/zcli/commit/2df429b6), [fec35be](https://github.com/softvisio/zcli/commit/fec35be7), [8a3e36e](https://github.com/softvisio/zcli/commit/8a3e36e0), [8d1e553](https://github.com/softvisio/zcli/commit/8d1e5532), [f0e9330](https://github.com/softvisio/zcli/commit/f0e93304); 👬 zdm)
+
+Compare with the previous release: [v4.18.0...v4.19.0](https://github.com/softvisio/zcli/compare/v4.18.0...v4.19.0)
+
 ### v4.18.0 (2026-10-21)
 
 **New features:**
