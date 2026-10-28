@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.19.5 (2026-10-28)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: pass connection options to tryConnect (● [2518d69](https://github.com/softvisio/zcli/commit/2518d690); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [072eb37](https://github.com/softvisio/zcli/commit/072eb372), [c35e6fd](https://github.com/softvisio/zcli/commit/c35e6fd8), [797e74d](https://github.com/softvisio/zcli/commit/797e74d6), [d2242a7](https://github.com/softvisio/zcli/commit/d2242a76); 👬 zdm)
+
+Compare with the previous release: [v4.19.4...v4.19.5](https://github.com/softvisio/zcli/compare/v4.19.4...v4.19.5)
+
 ### v4.19.4 (2026-10-26)
 
 **Other changes:**
