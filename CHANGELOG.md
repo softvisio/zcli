@@ -1,5 +1,29 @@
 # Changelog
 
+### v4.19.6 (2026-10-29)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: adopt iterator toArray in package config iteration (● [688c05d](https://github.com/softvisio/zcli/commit/688c05d9); 👬 zdm)
+
+    Enable Unicorn iterator conversion rules and replace spread-based key collection with `toArray()`.
+
+- \[PATCH] refactor: remove temporal side-effect import (● [69f64fc](https://github.com/softvisio/zcli/commit/69f64fc2); 👬 zdm)
+
+**Other changes:**
+
+- chore: enable unicorn iterator concat rule (● [d649595](https://github.com/softvisio/zcli/commit/d6495959); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [289e573](https://github.com/softvisio/zcli/commit/289e5736); 👬 zdm)
+
+- chore(metadata): raise minimum Node.js and npm versions (● [0e9ce32](https://github.com/softvisio/zcli/commit/0e9ce324); 👬 zdm)
+
+- chore(metadata): remove package engine requirements (● [67657c4](https://github.com/softvisio/zcli/commit/67657c47); 👬 zdm)
+
+- docs: correct commented Temporal rule name (● [da50dac](https://github.com/softvisio/zcli/commit/da50dac7); 👬 zdm)
+
+Compare with the previous release: [v4.19.5...v4.19.6](https://github.com/softvisio/zcli/compare/v4.19.5...v4.19.6)
+
 ### v4.19.5 (2026-10-28)
 
 **Code refactoring:**
