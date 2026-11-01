@@ -1,5 +1,23 @@
 # Changelog
 
+### v4.19.7 (2026-11-01)
+
+**Bug fixes:**
+
+- \[PATCH] fix: encode generated secret keys as base64 (● [88380a7](https://github.com/softvisio/zcli/commit/88380a7c); 👬 zdm)
+
+- \[PATCH] fix: update phc api (● [09fad3c](https://github.com/softvisio/zcli/commit/09fad3c4); 👬 zdm)
+
+**Other changes:**
+
+- chore: enable unicorn uint8array base64 rule (● [bc1ac9e](https://github.com/softvisio/zcli/commit/bc1ac9e8); 👬 zdm)
+
+- chore: update cli options (● [56cb8da](https://github.com/softvisio/zcli/commit/56cb8dab); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [a49aeaa](https://github.com/softvisio/zcli/commit/a49aeaa7), [a0190d4](https://github.com/softvisio/zcli/commit/a0190d49); 👬 zdm)
+
+Compare with the previous release: [v4.19.6...v4.19.7](https://github.com/softvisio/zcli/compare/v4.19.6...v4.19.7)
+
 ### v4.19.6 (2026-10-29)
 
 **Code refactoring:**
