@@ -1,5 +1,23 @@
 # Changelog
 
+### v4.20.0 (2026-11-02)
+
+**New features:**
+
+- \[MINOR] feat: add short aliases to key generation and SSH encoding options (● [22ed46c](https://github.com/softvisio/zcli/commit/22ed46ca); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: disable unicoen uint8array hex/base64 rules (● [d63072a](https://github.com/softvisio/zcli/commit/d63072ad); 👬 zdm)
+
+**Other changes:**
+
+- chore: remove SSH short option alias (● [ac98a5f](https://github.com/softvisio/zcli/commit/ac98a5f3); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [67713ad](https://github.com/softvisio/zcli/commit/67713adf); 👬 zdm)
+
+Compare with the previous release: [v4.19.7...v4.20.0](https://github.com/softvisio/zcli/compare/v4.19.7...v4.20.0)
+
 ### v4.19.7 (2026-11-01)
 
 **Bug fixes:**
