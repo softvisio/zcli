@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.21.0 (2026-11-03)
+
+**New features:**
+
+- \[MINOR] feat: rename secret-key generator command to secret (● [e33ccc2](https://github.com/softvisio/zcli/commit/e33ccc27); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [637b5f6](https://github.com/softvisio/zcli/commit/637b5f6d), [45f514e](https://github.com/softvisio/zcli/commit/45f514ee); 👬 zdm)
+
+Compare with the previous release: [v4.20.1...v4.21.0](https://github.com/softvisio/zcli/compare/v4.20.1...v4.21.0)
+
 ### v4.20.1 (2026-11-02)
 
 **Other changes:**
