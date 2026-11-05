@@ -1,5 +1,23 @@
 # Changelog
 
+### v4.21.1 (2026-11-05)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: use Temporal for localization timestamps (● [c3baeff](https://github.com/softvisio/zcli/commit/c3baeff1); 👬 zdm)
+
+**Other changes:**
+
+- chore: disable Date.now temporal preference check (● [98b77ab](https://github.com/softvisio/zcli/commit/98b77abf); 👬 zdm)
+
+- chore: enable unicorn Temporal preference checks (● [1c54631](https://github.com/softvisio/zcli/commit/1c546314); 👬 zdm)
+
+- chore: update unicorn temporal rule (● [7a1d903](https://github.com/softvisio/zcli/commit/7a1d9034); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [445fdf1](https://github.com/softvisio/zcli/commit/445fdf1c), [9ae76c7](https://github.com/softvisio/zcli/commit/9ae76c72), [a4d1f0f](https://github.com/softvisio/zcli/commit/a4d1f0fe); 👬 zdm)
+
+Compare with the previous release: [v4.21.0...v4.21.1](https://github.com/softvisio/zcli/compare/v4.21.0...v4.21.1)
+
 ### v4.21.0 (2026-11-03)
 
 **New features:**
