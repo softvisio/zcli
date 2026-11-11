@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.21.7 (2026-11-11)
+
+**Other changes:**
+
+- chore(deps): update editorconfig to v4.0.0 (● [86a877f](https://github.com/softvisio/zcli/commit/86a877fd); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [9ab8614](https://github.com/softvisio/zcli/commit/9ab86146), [3382436](https://github.com/softvisio/zcli/commit/33824362), [afe2bee](https://github.com/softvisio/zcli/commit/afe2bee1), [d78c5b3](https://github.com/softvisio/zcli/commit/d78c5b37); 👬 zdm)
+
+Compare with the previous release: [v4.21.6...v4.21.7](https://github.com/softvisio/zcli/compare/v4.21.6...v4.21.7)
+
 ### v4.21.6 (2026-11-09)
 
 **Other changes:**
