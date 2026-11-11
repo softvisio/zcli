@@ -51,7 +51,7 @@
         "@stylistic/eslint-plugin": "^5.0.0",
         "@vue/compiler-sfc": "^3.2.36",
         "cssnano": "^9.0.0",
-        "editorconfig": "^3.0.0",
+        "editorconfig": "^4.0.0",
         "eslint": "^10.0.0",
         "eslint-plugin-de-morgan": "^2.1.2",
         "eslint-plugin-disable-autofix": "^6.1.3",
