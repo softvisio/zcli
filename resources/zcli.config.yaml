@@ -124,4 +124,11 @@ commits:
 
   scopes: ~
 
-docs: ~
+docs:
+  location: ~
+
+  app:
+    api:
+      url: wss://localhost/
+    rpc:
+      url: ws://localhost:81/

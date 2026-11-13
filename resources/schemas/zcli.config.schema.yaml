@@ -165,71 +165,72 @@
       required: [requireType, strictType, types, scopes]
 
     docs:
-      anyOf:
-        - type: "null"
-        - type: object
-          properties:
-            location: { enum: [/, /docs] }
-            aliases: { type: object, additionalProperties: { type: string, format: url } }
+      type: object
+      properties:
+        location:
+          anyOf:
+            - type: "null"
+            - { enum: [/, /docs] }
+        aliases: { type: object, additionalProperties: { type: string, format: url } }
 
-            app:
+        app:
+          type: object
+          properties:
+            api:
               type: object
               properties:
-                api:
-                  type: object
-                  properties:
-                    url: { type: string, format: url }
-
-                  additionalProperties: false
-                  required: [url]
-                rpc:
-                  type: object
-                  properties:
-                    url: { type: string, format: url }
-
-                  additionalProperties: false
-                  required: [url]
+                url: { type: string, format: url }
 
               additionalProperties: false
-              required: []
+              required: [url]
+            rpc:
+              type: object
+              properties:
+                url: { type: string, format: url }
 
-            changelog:
-              anyOf:
-                - { type: boolean }
-                - { type: string, format: url }
-
-            favicon: { type: string }
-            generateReadme: { type: boolean }
-            logo:
-              anyOf:
-                - { type: boolean }
-                - { type: string, format: url }
-                - type: object
-                  properties:
-                    href: { type: string, format: url }
-                    width: { type: integer, minimum: 32 }
-                    height: { type: integer, minimum: 32 }
-
-                  additionalProperties: false
-                  required: [href]
-
-            name: { type: string }
-            siteURL: { type: string, format: url }
-            subMaxLevel: { type: integer, minimum: 0 }
-            types:
-              anyOf:
-                - type: "null"
-                - type: object
-                  additionalProperties:
-                    type: ["null", string]
-
-            externalTypes: { type: array, items: { type: string }, uniqueItems: true }
+              additionalProperties: false
+              required: [url]
 
           additionalProperties: false
-          required: [location]
+          required: []
+
+        changelog:
+          anyOf:
+            - { type: boolean }
+            - { type: string, format: url }
+
+        favicon: { type: string }
+        generateReadme: { type: boolean }
+        logo:
+          anyOf:
+            - { type: boolean }
+            - { type: string, format: url }
+            - type: object
+              properties:
+                href: { type: string, format: url }
+                width: { type: integer, minimum: 32 }
+                height: { type: integer, minimum: 32 }
+
+              additionalProperties: false
+              required: [href]
+
+        name: { type: string }
+        siteURL: { type: string, format: url }
+        subMaxLevel: { type: integer, minimum: 0 }
+        types:
+          anyOf:
+            - type: "null"
+            - type: object
+              additionalProperties:
+                type: ["null", string]
+
+        externalTypes: { type: array, items: { type: string }, uniqueItems: true }
+
+      additionalProperties: false
+      required: [location]
 
   additionalProperties: false
-  required: [meta, tests, release, commits]
+  required: [commits, docs, meta, release, tests]
 
 - $id: dependabot
   type: object
