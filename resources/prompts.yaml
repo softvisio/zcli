@@ -17,7 +17,7 @@ commit-message: !ejs |-
   - Do not add any "Co-authored-by" trailer.
   - Base the message strictly on the actual diff — do not invent changes that aren't there.
   <% if ( types ) { -%>
-  - You MUST use only types, listed below.
+  - You MUST use only types, listed below (NOT `Info` or other). Pay attention on this.
 
   Conventional commit types allowed to use:
   <% for ( const [ type, options ] of Object.entries( types.types ) ) { -%>
