@@ -1,5 +1,29 @@
 # Changelog
 
+### v4.21.12 (2026-11-14)
+
+**Bug fixes:**
+
+- \[PATCH] fix: check app and component paths before building docs (● [7994aa4](https://github.com/softvisio/zcli/commit/7994aa48); 👬 zdm)
+
+- \[PATCH] fix: resolve app components from package path (● [a813f54](https://github.com/softvisio/zcli/commit/a813f545); 👬 zdm)
+
+- \[PATCH] fix: skip app docs when app entry is missing (● [fac1dd8](https://github.com/softvisio/zcli/commit/fac1dd81); 👬 zdm)
+
+**Other changes:**
+
+- chore: require commit messages to use listed types (● [5b454d5](https://github.com/softvisio/zcli/commit/5b454d53); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [aa601b2](https://github.com/softvisio/zcli/commit/aa601b2c); 👬 zdm)
+
+- docs: clarify allowed commit message types (● [5832840](https://github.com/softvisio/zcli/commit/58328403); 👬 zdm)
+
+- docs: update (● [92f86c2](https://github.com/softvisio/zcli/commit/92f86c2c); 👬 zdm)
+
+- style: remove obsolete commented components URL (● [3cbf851](https://github.com/softvisio/zcli/commit/3cbf8517); 👬 zdm)
+
+Compare with the previous release: [v4.21.11...v4.21.12](https://github.com/softvisio/zcli/compare/v4.21.11...v4.21.12)
+
 ### v4.21.11 (2026-11-13)
 
 **Other changes:**
