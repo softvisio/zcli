@@ -1,5 +1,21 @@
 # Changelog
 
+### v4.21.14 (2026-11-16)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update unicorn rules (● [5757916](https://github.com/softvisio/zcli/commit/57579166); 👬 zdm)
+
+**Other changes:**
+
+- chore: enable uint8array base64 and hex lint rules (● [1aae852](https://github.com/softvisio/zcli/commit/1aae8522); 👬 zdm)
+
+- chore(deps): update eslint-plugin-unicorn to v80.0.0 (● [90346c6](https://github.com/softvisio/zcli/commit/90346c6a); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [00d2d11](https://github.com/softvisio/zcli/commit/00d2d117), [6e359d3](https://github.com/softvisio/zcli/commit/6e359d3e), [d28668f](https://github.com/softvisio/zcli/commit/d28668fd), [30f4d61](https://github.com/softvisio/zcli/commit/30f4d617), [02f1db3](https://github.com/softvisio/zcli/commit/02f1db3d); 👬 zdm)
+
+Compare with the previous release: [v4.21.13...v4.21.14](https://github.com/softvisio/zcli/compare/v4.21.13...v4.21.14)
+
 ### v4.21.13 (2026-11-14)
 
 **Other changes:**
