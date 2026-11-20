@@ -2,14 +2,14 @@
 No changes since the previous release.
 <%_ } else { -%>
 <%_ if ( changelog.hasBreakingChanges ) { -%>
-**Migration notes:**
+**Migration notes**:
 
 See the list of the breaking changes below for details.
 <%_ } -%>
 <%_ for ( const group of changesGroups ) { -%>
 <%_ if ( group.changes.length ) { -%>
 
-**<%- group.name %>:**
+**<%- group.name %>**:
 <%_ for ( const change of group.changes ) { -%>
 
 - <%- change.getChangelogSubject( { "withSemanticVersionType": group.productionChange, "withCommits": true } ) %>
