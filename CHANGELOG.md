@@ -1,5 +1,21 @@
 # Changelog
 
+### v4.21.20 (2026-11-21)
+
+**Bug fixes**:
+
+- \[PATCH] fix: fix changelog format (● [36853ec](https://github.com/softvisio/zcli/commit/36853eca); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [21a8f45](https://github.com/softvisio/zcli/commit/21a8f45f); 👬 zdm)
+
+- docs: correct changelog section label formatting (● [bc737b2](https://github.com/softvisio/zcli/commit/bc737b20); 👬 zdm)
+
+- style: remove colon from changelog heading (● [186a7b7](https://github.com/softvisio/zcli/commit/186a7b79); 👬 zdm)
+
+Compare with the previous release: [v4.21.19...v4.21.20](https://github.com/softvisio/zcli/compare/v4.21.19...v4.21.20)
+
 ### v4.21.19 (2026-11-20)
 
 **Other changes:**
