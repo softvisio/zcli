@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.21.21 (2026-11-22)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [f608f15](https://github.com/softvisio/zcli/commit/f608f15e), [cd0f967](https://github.com/softvisio/zcli/commit/cd0f9672); 👬 zdm)
+
+- docs: improve secret key size help formatting (● [a50c3fb](https://github.com/softvisio/zcli/commit/a50c3fb7); 👬 zdm)
+
+Compare with the previous release: [v4.21.20...v4.21.21](https://github.com/softvisio/zcli/compare/v4.21.20...v4.21.21)
+
 ### v4.21.20 (2026-11-21)
 
 **Bug fixes**:
