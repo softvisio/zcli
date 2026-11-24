@@ -1,5 +1,49 @@
 # Changelog
 
+### v4.22.0 (2026-11-24)
+
+**New features**:
+
+- \[MINOR] feat: add short docker build options (● [d3ed685](https://github.com/softvisio/zcli/commit/d3ed6850); 👬 zdm)
+
+- \[MINOR] feat: add short option for disabling package publication (● [e8a6c95](https://github.com/softvisio/zcli/commit/e8a6c959); 👬 zdm)
+
+**Bug fixes**:
+
+- \[PATCH] fix: correct negated push option shorthand (● [b15133f](https://github.com/softvisio/zcli/commit/b15133fa); 👬 zdm)
+
+- \[PATCH] fix: fix docker build root package (● [22da3cb](https://github.com/softvisio/zcli/commit/22da3cb2); 👬 zdm)
+
+- \[PATCH] fix: update package and workspace command aliases (● [8878303](https://github.com/softvisio/zcli/commit/88783034); 👬 zdm)
+
+**Code refactoring**:
+
+- \[PATCH] refactor: refactor cli (● [42a7c10](https://github.com/softvisio/zcli/commit/42a7c10b), [35602f8](https://github.com/softvisio/zcli/commit/35602f8d); 👬 zdm)
+
+**Other changes**:
+
+- chore: add cli class names (● [04654f3](https://github.com/softvisio/zcli/commit/04654f3a); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [03f9d7a](https://github.com/softvisio/zcli/commit/03f9d7a5), [687e60a](https://github.com/softvisio/zcli/commit/687e60ac), [553023f](https://github.com/softvisio/zcli/commit/553023f8), [e898e3b](https://github.com/softvisio/zcli/commit/e898e3b3); 👬 zdm)
+
+- chore(metadata): update package description (● [eead6bf](https://github.com/softvisio/zcli/commit/eead6bf5); 👬 zdm)
+
+- docs: capitalize command option descriptions (● [d2792a6](https://github.com/softvisio/zcli/commit/d2792a6b); 👬 zdm)
+
+- docs: clarify lint command help text (● [783bf8a](https://github.com/softvisio/zcli/commit/783bf8ab); 👬 zdm)
+
+- docs: clarify sub-package option descriptions (● [1503df9](https://github.com/softvisio/zcli/commit/1503df96); 👬 zdm)
+
+- docs: improve command help text (● [5120b0b](https://github.com/softvisio/zcli/commit/5120b0b1); 👬 zdm)
+
+- docs: update lint command option descriptions (● [51c8104](https://github.com/softvisio/zcli/commit/51c81046); 👬 zdm)
+
+- style: normalize command help text formatting (● [73efe5b](https://github.com/softvisio/zcli/commit/73efe5b9); 👬 zdm)
+
+- style: update formatting and punctuation (● [0a1d241](https://github.com/softvisio/zcli/commit/0a1d241a); 👬 zdm)
+
+Compare with the previous release: [v4.21.22...v4.22.0](https://github.com/softvisio/zcli/compare/v4.21.22...v4.22.0)
+
 ### v4.21.22 (2026-11-22)
 
 **Other changes**:
