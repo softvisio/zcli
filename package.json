@@ -1,7 +1,7 @@
 {
     "name": "@softvisio/zcli",
     "version": "4.21.22",
-    "description": "zCLI toolset",
+    "description": "zcli command line toolset",
     "keywords": [
         "zcli"
     ],

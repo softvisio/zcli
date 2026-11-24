@@ -7,7 +7,7 @@ const CLI = {
     "title": "Update resources",
     "options": {
         "force": {
-            "description": "force update",
+            "description": "Force update",
             "default": false,
             "schema": {
                 "type": "boolean",

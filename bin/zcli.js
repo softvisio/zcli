@@ -5,68 +5,68 @@ import ansi from "#core/ansi";
 import CLI from "#core/cli";
 
 const spec = {
-    "title": "@softvisio/zcli",
+    "title": "Command line toolset",
     "commands": {
         "ls": {
-            "title": "List packages in workspace.",
+            "title": "List packages in workspace",
             "module": () => new URL( "../lib/commands/ls.js", import.meta.url ),
         },
         "lint": {
-            "title": "Lint sources.",
+            "title": "Lint sources",
             "module": () => new URL( "../lib/commands/lint.js", import.meta.url ),
         },
         "status": {
             "short": "s",
-            "title": "Get package status.",
+            "title": "Get package status",
             "module": () => new URL( "../lib/commands/status.js", import.meta.url ),
         },
         "log": {
             "short": "l",
-            "title": "Get changelog for unreleased changes.",
+            "title": "Get changelog for unreleased changes",
             "module": () => new URL( "../lib/commands/log.js", import.meta.url ),
         },
         "docker": {
             "short": "d",
-            "title": "Docker tools.",
+            "title": "Docker tools",
             "module": () => new URL( "../lib/commands/docker.js", import.meta.url ),
         },
         "localization": {
             "alias": "loc",
-            "title": "Localization tools.",
+            "title": "Localization tools",
             "module": () => new URL( "../lib/commands/localization.js", import.meta.url ),
         },
         "package": {
             "short": "p",
-            "title": "Package tools.",
+            "title": "Package tools",
             "module": () => new URL( "../lib/commands/package.js", import.meta.url ),
         },
         "workspace": {
             "short": "w",
-            "title": "Bulk operations with workspace.",
+            "title": "Bulk operations with workspace",
             "module": () => new URL( "../lib/commands/workspace.js", import.meta.url ),
         },
         "generate": {
             "short": "g",
-            "title": "Generate data.",
+            "title": "Generate data",
             "module": () => new URL( "../lib/commands/generate.js", import.meta.url ),
         },
         "rpc": {
             "short": "r",
-            "title": "Manage RPC service.",
+            "title": "Manage RPC service",
             "module": () => new URL( "../lib/commands/rpc.js", import.meta.url ),
         },
         "deb-repository": {
             "alias": "deb",
-            "title": "Deb packages repository tools.",
+            "title": "Deb packages repository tools",
             "module": () => new URL( "../lib/commands/deb-repository.js", import.meta.url ),
         },
         "commit": {
-            "title": "Git commit.",
+            "title": "Git commit",
             "alias": "ci",
             "module": () => new URL( "../lib/commands/commit.js", import.meta.url ),
         },
         "git": {
-            "title": "Git tools.",
+            "title": "Git tools",
             "module": () => new URL( "../lib/commands/git.js", import.meta.url ),
         },
     },
