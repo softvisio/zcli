@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.23.1 (2026-11-25)
+
+**Other changes**:
+
+- docs: correct rpc daemon option description (● [6e698b1](https://github.com/softvisio/zcli/commit/6e698b1e); 👬 zdm)
+
+Compare with the previous release: [v4.23.0...v4.23.1](https://github.com/softvisio/zcli/compare/v4.23.0...v4.23.1)
+
 ### v4.23.0 (2026-11-25)
 
 **New features**:
