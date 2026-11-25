@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.23.0 (2026-11-25)
+
+**New features**:
+
+- \[MINOR] feat: rename lint reporting options (● [d82ce42](https://github.com/softvisio/zcli/commit/d82ce423); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [2b579e3](https://github.com/softvisio/zcli/commit/2b579e35); 👬 zdm)
+
+Compare with the previous release: [v4.22.1...v4.23.0](https://github.com/softvisio/zcli/compare/v4.22.1...v4.23.0)
+
 ### v4.22.1 (2026-11-25)
 
 **Bug fixes**:
