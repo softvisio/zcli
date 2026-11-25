@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.23.2 (2026-11-25)
+
+**Bug fixes**:
+
+- \[PATCH] fix: remove extra newline in changelog output (● [11b8541](https://github.com/softvisio/zcli/commit/11b85415); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [aca8508](https://github.com/softvisio/zcli/commit/aca8508a), [9fec0f3](https://github.com/softvisio/zcli/commit/9fec0f34), [8c65c57](https://github.com/softvisio/zcli/commit/8c65c57e), [107e065](https://github.com/softvisio/zcli/commit/107e0657); 👬 zdm)
+
+Compare with the previous release: [v4.23.1...v4.23.2](https://github.com/softvisio/zcli/compare/v4.23.1...v4.23.2)
+
 ### v4.23.1 (2026-11-25)
 
 **Other changes**:
