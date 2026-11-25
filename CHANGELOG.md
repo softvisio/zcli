@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.22.1 (2026-11-25)
+
+**Bug fixes**:
+
+- \[PATCH] fix: correct yes option description quoting (● [d5d60b6](https://github.com/softvisio/zcli/commit/d5d60b66); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [7e504ac](https://github.com/softvisio/zcli/commit/7e504acf); 👬 zdm)
+
+Compare with the previous release: [v4.22.0...v4.22.1](https://github.com/softvisio/zcli/compare/v4.22.0...v4.22.1)
+
 ### v4.22.0 (2026-11-24)
 
 **New features**:
